@@ -1,0 +1,252 @@
+
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+.contact-p ,.photos p{
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.55px;
+    text-align: left;
+    color: #5863E3;
+
+  
+    
+}
+
+.contact h2{
+    font-family: Helvetica;
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 56.35px;
+    text-align: left;
+    width: 371px;
+    height: 112px;
+
+}
+
+.contact, .photos {
+    padding: 20px;
+    text-align: center;
+}
+.photos h2{
+    width: 548px;
+    height: 112px;
+    top: 860px;
+    left: 144px;
+    font-family: Helvetica;
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 56.35px;
+    text-align: left;
+    
+    
+}
+
+.contact h2, .photos h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.contact-item h4{
+    color: #4E4D54;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    
+
+}
+.contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact .form-group {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.contact .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact .form-group textarea, .contact .form-group input {
+ 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;  
+    width: 370px;
+    height: 59px;
+    top: 253px;
+    left: 920px;
+    border: 2px 0px 0px 0px;
+    
+    
+    
+}
+
+.contact button {
+    padding: 10px 20px;
+    background: #4A63E7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 370px;
+    height: 59px;
+    top: 495px;
+    left: 920px;
+ 
+}
+
+
+.contact .contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.contact .form-group textarea {
+    resize: none; 
+    width: 756px;
+    height: 298px;
+    top: 253px;
+    left: 144px;
+    border: 2px 0px 0px 0px;
+   
+    
+}
+
+.contact-item {
+    vertical-align: middle;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.25px;
+    text-align: left;
+    color: #99999A;     
+    
+
+}
+
+.Email{
+    width: 41px;
+    height: 29px;
+    top: 621px;
+    left: 302px;
+    
+    
+    
+}
+.Phone{  
+    width: 51px;
+    height: 41px;
+    top: 615px;
+    left: 690px;
+ 
+
+    
+}
+.Location{
+    width: 23px;
+    height: 38px;
+    top: 620px;
+    left: 1097px;
+  
+    
+}
+.contact .contact-info .contact-item {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact .contact-info .contact-item img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.photos .photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.photos .photo-gallery img {
+    width: 30%;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .footer-content > div {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .social-icons img {
+    width: 20px;
+}
+
+@media (max-width: 768px) {
+    .contact form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact .contact-info {
+        flex-direction: column;
+    }
+
+    .photos .photo-gallery {
+        flex-direction: column;
+    }
+
+    footer .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
