@@ -260,6 +260,22 @@ footer {
     height: 30px;
 }
 
+    
+
+    
+
+@media (max-width: 1024px) {
+    .contact .form-group textarea, .contact .form-group input { 
+        width: 250px;
+    }
+    .contact-2p, .photos-p {
+        margin-left: 300px;
+    }
+    .photosp, .contact-p {
+        margin-left: 400px;
+    }
+}
+
 @media (max-width: 768px) {
     .contact form {
         flex-direction: column;
@@ -268,30 +284,39 @@ footer {
 
     .contact .contact-info {
         flex-direction: column;
+        display: flex;
+        align-items: center;
     }
 
     .photos .photo-gallery {
         flex-direction: column;
     }
 
-    footer .footer-content {
+    footer .footer-container {
         flex-direction: column;
         align-items: center;
     }
+    .contact-2p, .photos-p, .contact-p, .photosp{
+        vertical-align: middle;
+        margin-left: 50px;
+    }
     
+    .photo-gallery {
+        display: flex;
+        align-items: center;
+    }
+    .photo-gallery img{
+        width: 200px;
+    }
+   
+   
+   
+}
+
+@media (max-width: 480px) {
+    .contact .form-group textarea, .contact .form-group input { 
+        width: 200px;
+    }
     
-
-@media (max-width: 1024px) {
-     .contact .form-group textarea, .contact .form-group input { 
-        width: 250px
-       
-    }
-    .contact-2p , .photos-p{
-        margin-left: 300px;
-    }
-    .photosp ,.contact-p{
-       margin-left: 400px;
-    }
-
 }
-}
+
